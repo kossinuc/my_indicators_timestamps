@@ -1,0 +1,8 @@
+# Никогда не коммитить секреты и расшифрованное содержимое
+passphrase.txt
+manifest.txt
+*.pine
+indicators/
+strategy/
+*.key
+*_SECRET*
