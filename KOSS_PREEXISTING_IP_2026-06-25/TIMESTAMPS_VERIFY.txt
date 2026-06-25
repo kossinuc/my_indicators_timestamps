@@ -1,11 +1,10 @@
 ПРОВЕРКА НЕЗАВИСИМЫХ МЕТОК ВРЕМЕНИ
 Объект: KOSS_PREEXISTING_IP_2026-06-25_ENCRYPTED.7z
-SHA-256: 6118013656343008598c34a36b7cb6e3ae586d5b263770dfe5d1786074e6ee75
+SHA-256: 59b1a813bbf5e67ac547b5faadd5a682a399fcb93224d706e89b82fe9757c34d
 
-1) RFC 3161 (FreeTSA) — зафиксировано: 2026-06-25 15:53:57 GMT
+1) RFC 3161 (FreeTSA) — зафиксировано: 2026-06-25 16:17:31 GMT
    openssl ts -verify -data KOSS_PREEXISTING_IP_2026-06-25_ENCRYPTED.7z      -in KOSS_PREEXISTING_IP_2026-06-25_ENCRYPTED.7z.tsr      -CAfile freetsa-cacert.pem -untrusted freetsa-tsa.crt
    Ожидается: Verification: OK
-
 2) OpenTimestamps (Bitcoin):
    ots upgrade KOSS_PREEXISTING_IP_2026-06-25_ENCRYPTED.7z.ots
    ots verify  KOSS_PREEXISTING_IP_2026-06-25_ENCRYPTED.7z.ots
