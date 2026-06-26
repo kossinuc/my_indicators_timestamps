@@ -8,3 +8,8 @@ SHA-256: 59b1a813bbf5e67ac547b5faadd5a682a399fcb93224d706e89b82fe9757c34d
 2) OpenTimestamps (Bitcoin):
    ots upgrade KOSS_PREEXISTING_IP_2026-06-25_ENCRYPTED.7z.ots
    ots verify  KOSS_PREEXISTING_IP_2026-06-25_ENCRYPTED.7z.ots
+
+--- ОБНОВЛЕНИЕ: OpenTimestamps ПОДТВЕРЖДЁН В BITCOIN (2026-06-26) ---
+Timestamp complete. Attestations в блоках Bitcoin: 955363, 955367, 955390.
+Проверка без локальной ноды: загрузите .7z и .ots на https://opentimestamps.org
+(вкладка Verify), либо 'ots verify' при наличии Bitcoin Core.
